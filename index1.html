@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Piyush123">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="xyz@gmail.com">
+        <br><br>
+
+        <label for="Password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="min8charachter">
+        <br><br>
+
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox" name="hobby" id="hobby" value="reading">reading
+        <input type="checkbox" name="hobby" id="hobby" value="sport">Sports
+        <input type="checkbox" name="hobby" id="hobby" value="traveling">Traveling
+        <input type="checkbox" name="hobby" id="hobby" value="Driving">Driving
+        <br><br>
+
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="gender" id="gender" value="male">male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <br><br>
+
+        <label for="country">Country:</label><br>
+        <select name="country" id="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="russia">Russia</option>
+            <option value="U.K.">U.K.</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+            <option value="UAE">UAE</option>
+            <br><br>
+
+            <label for="massage">Massage:</label>
+            <textarea name="massage" id="textarea"></textarea>
+            <br><br>
+
+           <input type="submit" value="Register">
+
+        </select>
+               
+
+
+    </form>
+    
+</body>
+</html>
